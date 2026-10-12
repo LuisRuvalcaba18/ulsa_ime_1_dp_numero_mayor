@@ -11,53 +11,53 @@ _____
 <!-- Define cada entrada y cada salida, con su tipo de dato y su objetivo. -->
 
 **Entradas:**
-1. _____
-2. _____
-3. _____
+1. __a___
+2. __b___
+3. ___c__
 
 **Salida:**
-1. _____
+1. ___numero mayor_
 
 **¿Muestro el valor del mayor o cuál de los tres fue (primero, segundo o tercero)? ¿Por qué?**
-_____
+_____el valor del numero mayor, por que es lo que busca el programa
 
 **¿Qué función de `utilerias.h` uso para leer los números? ¿Por qué esa y no la otra?**
-_____
+_____para utilizar leerDecimal
 
 ## 3. Restricciones e invariante (Fases 1 y 2)
 
 **Restricciones** (¿qué debe cumplirse?):
-- _____
-- _____
+- _____las variables deben ser numeros
+- _____las variables deben ser 3
 
 **¿Hace falta validar el rango de los números (por ejemplo, rechazar el 0 o los negativos)? ¿Por qué?**
-_____
+_____No, porque el programa debe encontrar el mayor y puede trabajar con números positivos, negativos y cero.
 
 **¿Qué hace mi programa cuando dos números son iguales y son los mayores? ¿Y cuando los tres son iguales?**
-_____
+_____muestra el mismo valor
 
 **¿Quién detecta cada error?** (¿qué revisa la función de `utilerias.h` y qué reviso yo?)
-_____
+_____leerDecimal
 
 **Invariante** (justo antes de mostrar el resultado, ¿qué es seguro sobre el valor que voy a mostrar?):
-_____
+_____que guarda el valor maximo
 
 ## 4. Casos resueltos a mano (Fase 1)
 
 | Caso | Número 1 | Número 2 | Número 3 | Mayor calculado a mano |
 |---|---|---|---|---|
-| 1 (el mayor en primera posición) | _____ | _____ | _____ | _____ |
-| 2 (el mayor en segunda posición) | _____ | _____ | _____ | _____ |
-| 3 (el mayor en tercera posición) | _____ | _____ | _____ | _____ |
-| 4 (con un empate) | _____ | _____ | _____ | _____ |
-| 5 (con negativos) | _____ | _____ | _____ | _____ |
+| 1 (el mayor en primera posición) | __3__ | __2__ | __1__ | __3__ |
+| 2 (el mayor en segunda posición) | ___3__ | ___4__ | __2___ | ___4_ |
+| 3 (el mayor en tercera posición) | ___2__ | ___4__ | ___6__ | _6___ |
+| 4 (con un empate) | __7__ | __7__ | ___7__ | ___7__ |
+| 5 (con negativos) | __-3___ | __-5___ | __-6___ | __-3___ |
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las preguntas. -->
 
-**¿Probé mi receta a mano con mis 5 casos?** Sí / No
-**¿Tuve que corregirla? ¿Qué cambié?** _____
-**¿Cuántas versiones de mi receta escribí hasta la final?** _____
+**¿Probé mi receta a mano con mis 5 casos?** Sí 
+**¿Tuve que corregirla? ¿Qué cambié?** __si, agregue un else while___
+**¿Cuántas versiones de mi receta escribí hasta la final?** __2___
 **¿Se me ocurrió otra forma de resolver el problema? ¿Cuál? ¿Por qué elegí la que usé?**
 _____
 
